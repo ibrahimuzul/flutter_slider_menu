@@ -4,6 +4,7 @@ import 'package:flutter/services.dart';
 import 'menu_dashboard_widget.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
   final Color backgroundColur = Color(0xFF343442);
   SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
     statusBarColor: backgroundColur,
